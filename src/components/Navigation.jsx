@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "./navigation.css";
 
 function Navigation() {
   return (
@@ -7,7 +8,7 @@ function Navigation() {
       <nav className="navbar navbar-expand navbar-dark bg-dark">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
-            React Multi-Page Website
+            CRYPTO CURRENCIES
           </NavLink>
           <div>
             <ul className="navbar-nav ml-auto">

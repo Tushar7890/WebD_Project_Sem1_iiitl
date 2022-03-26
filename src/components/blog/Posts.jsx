@@ -14,7 +14,7 @@ function Posts() {
                 alt=""
               />
             </div>
-            <div class="col-lg-5">
+            <div class="col-lg-5 text-white">
               <h1 class="font-weight-light">This is a post title</h1>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
