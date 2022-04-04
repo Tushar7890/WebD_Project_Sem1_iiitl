@@ -2,28 +2,122 @@ import React from "react";
 
 function About() {
   return (
-    <div className="about">
-      <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
-            <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
-            />
-          </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">About</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </div>
+    <div>
+
+
+<div className="bg-light">
+  <div className="container py-5">
+    <div className="row h-100 align-items-center py-5">
+      <div className="col-lg-6">
+        <h1 className="display-4">About us page</h1>
+        <p className="lead text-muted mb-0">Create a minimal about us page using Bootstrap 4.</p>
+        <p className="lead text-muted">Snippet by <a href="https://bootstrapious.com/snippets" className="text-muted"> 
+                    <u>Bootstrapious</u></a>
+        </p>
+      </div>
+      <div className="col-lg-6 d-none d-lg-block"><img src="https://cloudfront-us-east-1.images.arcpublishing.com/coindesk/WHDPU5WHRVBTNKE6E2JI64QKQU.jpg" alt="" className="img-fluid"></img></div>
+    </div>
+  </div>
+</div>
+
+<div className="bg-white py-5">
+  <div className="container py-5">
+    <div className="row align-items-center mb-5">
+      <div className="col-lg-6 order-2 order-lg-1"><i className="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
+        <h2 className="font-weight-light">Lorem ipsum dolor sit amet</h2>
+        <p className="font-italic text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><a href="#" className="btn btn-light px-5 rounded-pill shadow-sm">Learn More</a>
+      </div>
+      <div className="col-lg-5 px-5 mx-auto order-1 order-lg-2"><img src="https://penntoday.upenn.edu/sites/default/files/2022-01/cryptocurrency-main.jpg" alt="" className="img-fluid mb-4 mb-lg-0"></img></div>
+    </div>
+    <div className="row align-items-center">
+      <div className="col-lg-5 px-5 mx-auto"><img src="https://images.livemint.com/img/2022/02/04/1600x900/Cryptocurrency_prices_today_1643946385625_1643946385776.jpg" alt="" className="img-fluid mb-4 mb-lg-0"></img></div>
+      <div className="col-lg-6"><i className="fa fa-leaf fa-2x mb-3 text-primary"></i>
+        <h2 className="font-weight-light">Lorem ipsum dolor sit amet</h2>
+        <p className="font-italic text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><a href="#" className="btn btn-light px-5 rounded-pill shadow-sm">Learn More</a>
       </div>
     </div>
+  </div>
+</div>
+
+<div className="bg-light py-5">
+  <div className="container py-5">
+    <div className="row mb-4">
+      <div className="col-lg-5">
+        <h2 className="display-4 font-weight-light">Our team</h2>
+        <p className="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+    </div>
+
+    <div className="row text-center">
+      
+      <div className="col-xl-3 col-sm-6 mb-5">
+        <div className="bg-white rounded shadow-sm py-5 px-4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMV9bCYQvnPNZYV6x60l2xi_lOUJeqfDsYlg&usqp=CAU" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"></img>
+          <h5 className="mb-0">Ribhav</h5><span className="small text-uppercase text-muted">CEO - Founder</span>
+          <ul className="social mb-0 list-inline mt-3">
+            <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-facebook-f"></i></a></li>
+            <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-twitter"></i></a></li>
+            <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-instagram"></i></a></li>
+            <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      
+
+      
+      <div className="col-xl-3 col-sm-6 mb-5">
+        <div className="bg-white rounded shadow-sm py-5 px-4"><img src="https://static.toiimg.com/thumb/msid-67586673,width-800,height-600,resizemode-75,imgsize-3918697,pt-32,y_pad-40/67586673.jpg" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"></img>
+          <h5 className="mb-0">Abhishek</h5><span className="small text-uppercase text-muted">CEO - Founder</span>
+          <ul className="social mb-0 list-inline mt-3">
+            <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-facebook-f"></i></a></li>
+            <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-twitter"></i></a></li>
+            <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-instagram"></i></a></li>
+            <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      
+
+      
+      <div className="col-xl-3 col-sm-6 mb-5">
+        <div className="bg-white rounded shadow-sm py-5 px-4"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"></img>
+          <h5 className="mb-0">Deepak</h5><span className="small text-uppercase text-muted">CEO - Founder</span>
+          <ul className="social mb-0 list-inline mt-3">
+            <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-facebook-f"></i></a></li>
+            <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-twitter"></i></a></li>
+            <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-instagram"></i></a></li>
+            <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      
+
+      
+      <div className="col-xl-3 col-sm-6 mb-5">
+        <div className="bg-white rounded shadow-sm py-5 px-4"><img src="https://image.shutterstock.com/image-photo/surreal-image-african-elephant-wearing-260nw-1365289022.jpg" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"></img>
+          <h5 className="mb-0-primary">Tushar</h5><span className="small text-uppercase text-muted">CEO - Founder</span>
+          <ul className="social mb-0 list-inline mt-3">
+            <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-facebook-f"></i></a></li>
+            <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-twitter"></i></a></li>
+            <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-instagram"></i></a></li>
+            <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+
+<footer className="bg-light pb-5">
+  <div className="container text-center">
+    <p className="font-italic text-muted mb-0">&copy; Copyrights Company.com All rights reserved.</p>
+  </div>
+</footer>
+
+
+</div>
   );
 }
 
